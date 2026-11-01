@@ -12,6 +12,6 @@ My little dragonfly will grow and glow as I code.
 
 ### ✨ My Dragonfly
 
-![My Dragonfly](assets/dragonfly_wings.gif)
+![My Dragonfly](assets/dragonfly_current.gif)
 
 ![Dragonfly Activity](assets/activity.svg)
