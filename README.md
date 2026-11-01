@@ -14,3 +14,4 @@ My little dragonfly will grow and glow as I code.
 
 ![My Dragonfly](assets/dragonfly_wings.gif)
 
+![Dragonfly Activity](assets/activity.svg)
