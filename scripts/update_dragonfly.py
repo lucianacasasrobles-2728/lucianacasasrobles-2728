@@ -36,15 +36,27 @@ for event in events:
     if event_date >= week_ago:
         commits += 1
 
+
 if commits >= 5:
     message = "Your dragonfly is glowing!"
     color = "#c084fc"
+    dragonfly = "dragonfly_glowing.gif"
 elif commits >= 1:
     message = "Your dragonfly is active!"
     color = "#7dd3fc"
+    dragonfly = "dragonfly_active.gif"
 else:
     message = "Your dragonfly is resting"
     color = "#a5b4fc"
+    dragonfly = "dragonfly_resting.gif"
+
+import shutil
+
+shutil.copyfile(
+    f"assets/{dragonfly}",
+    "assets/dragonfly_current.gif"
+)
+
 
 svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
 width="500" height="60" viewBox="0 0 500 60">
