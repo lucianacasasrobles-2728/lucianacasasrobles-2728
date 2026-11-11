@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 width="500" height="60" viewBox="0 0 500 60">
 <rect width="500" height="60" rx="18" fill="#151225"/>
-<circle cx="35" cy="30" r="7" fill="#a5b4fc"/>
-<text x="55" y="36" fill="#a5b4fc"
+<circle cx="35" cy="30" r="7" fill="#7dd3fc"/>
+<text x="55" y="36" fill="#7dd3fc"
 font-size="18" font-family="Arial">
-Your dragonfly is resting
+Your dragonfly is active!
 </text>
 </svg>
